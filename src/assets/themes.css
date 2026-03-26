@@ -1,0 +1,50 @@
+/* ── Тёмная тема (по умолчанию) ───────────────────────── */
+:root,
+[data-theme='dark'] {
+  --bg-base:       #0f1117;
+  --bg-surface:    #151823;
+  --bg-elevated:   #1a1d2e;
+  --bg-hover:      #1e2235;
+
+  --border:        #1e2235;
+  --border-hover:  #2e3354;
+
+  --text-primary:  #f1f5f9;
+  --text-secondary:#e2e8f0;
+  --text-muted:    #94a3b8;
+  --text-faint:    #64748b;
+  --text-disabled: #475569;
+
+  --accent:        #6c63ff;
+  --accent-soft:   #a78bfa;
+  --accent-bg:     rgba(108, 99, 255, 0.15);
+  --accent-border: rgba(108, 99, 255, 0.3);
+
+  --scrollbar-track: #1a1d2e;
+  --scrollbar-thumb: #3d4266;
+}
+
+/* ── Светлая тема ──────────────────────────────────────── */
+[data-theme='light'] {
+  --bg-base:       #f0f2f8;
+  --bg-surface:    #ffffff;
+  --bg-elevated:   #f8f9fc;
+  --bg-hover:      #eef0f8;
+
+  --border:        #e2e6f0;
+  --border-hover:  #c8cde0;
+
+  --text-primary:  #1a1d2e;
+  --text-secondary:#2d3250;
+  --text-muted:    #5a6380;
+  --text-faint:    #7c87a0;
+  --text-disabled: #9aa3b8;
+
+  --accent:        #6c63ff;
+  --accent-soft:   #7c6ff7;
+  --accent-bg:     rgba(108, 99, 255, 0.1);
+  --accent-border: rgba(108, 99, 255, 0.25);
+
+  --scrollbar-track: #e8eaf4;
+  --scrollbar-thumb: #b8bcce;
+}
